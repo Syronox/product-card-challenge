@@ -1,0 +1,91 @@
+body{
+
+  background-image: url(https://blusignalsystems.com/wp-content/uploads/2016/12/Savin-NY-Website-Background-Web1.jpg);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+
+}
+h1{
+  font-family: 'Fraunces', serif;
+}
+
+
+.floater{
+  background-color: hsl(30, 38%, 92%);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 500px;
+  height: 400px;
+  padding: 150px 350px;
+  box-shadow: 10px 5px 20px 5px hsl(228, 12%, 48%);
+}
+
+.container{
+  display: inline-block;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 2%;
+  width: 520px;
+  height: 400px;
+}
+
+.product-img{
+  float: left;
+  border-top-left-radius: 3%;
+  border-bottom-left-radius: 3%;
+  width: 260px;
+  height: 400px;
+  margin-right: 20px;
+}
+
+.crossed-out{
+  text-decoration: line-through;
+}
+
+.prices{
+  border-spacing: 20px 0;
+
+
+}
+
+.price{
+  margin-top: 0;
+  margin-bottom: 0;
+  color: hsl(158, 36%, 37%);
+}
+
+.gray{
+  color: hsl(228, 12%, 48%);
+}
+
+.btn {
+  background: hsl(158, 36%, 37%);
+  background-image: -webkit-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  background-image: -moz-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  background-image: -ms-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  background-image: -o-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  background-image: linear-gradient(to bottom, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 14px 55px 14px 55px;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.btn:hover {
+  background: #295939;
+  background-image: -webkit-linear-gradient(top, #295939, #295939);
+  background-image: -moz-linear-gradient(top, #295939, #295939);
+  background-image: -ms-linear-gradient(top, #295939, #295939);
+  background-image: -o-linear-gradient(top, #295939, #295939);
+  background-image: linear-gradient(to bottom, #295939, #295939);
+  text-decoration: none;
+}
